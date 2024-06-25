@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(179, 179, 179);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.cuad_principal{
+    display: flex;
+    justify-content: right;
+}
+
+.cuadrado{
+    display:flex;
+    width:1200px;
+    height:1000px;
+    background-color:white;
+    font-weight: bold;
+    margin: 8px;;
+    justify-content: space-between;
+    align-items:flex-start;
+    border-radius: 15px;
+    overflow: hidden;
+    justify-self: start;
+}
+
+.barra_navegacion{
+    width: 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+}
+
+.barra_navegacion a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.barra_navegacion a:hover{
+    color: blue;
+    background-color:white;
+}
